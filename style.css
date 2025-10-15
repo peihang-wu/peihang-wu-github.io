@@ -89,6 +89,7 @@ footer {
 }
 nav {
   margin-top: 1rem;
+  text-align: right;
 }
 
 nav a {
