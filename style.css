@@ -87,3 +87,18 @@ footer {
   font-size: 0.9rem;
   color: #888;
 }
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #004080;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
