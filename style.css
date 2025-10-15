@@ -13,7 +13,21 @@ body {
   margin: 0 auto;
   padding: 2rem;
 }
-
+ .nav-links {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0);
+            backdrop-filter: blur(0px);
+            z-index: 1000;
+            text-shadow: 2px 2px #000000;
+            transition: all 0.3s ease;
+        }
 header {
   margin-bottom: 2rem;
 }
@@ -77,16 +91,5 @@ footer {
   margin-top: 3rem;
   font-size: 0.9rem;
   color: #888;
-}
-nav {
-  margin-top: 1rem;
-}
-
-nav a {
-  color: #004080;
-  text-decoration: none;
-  text-align: right;
-  margin: 0 0.5rem;
-  font-weight: 500;
 }
 
