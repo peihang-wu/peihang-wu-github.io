@@ -104,17 +104,13 @@ footer {
 }
 nav {
   margin-top: 1rem;
-  text-align: right;
 }
 
 nav a {
   color: #004080;
   text-decoration: none;
+  text-align: right;
   margin: 0 0.5rem;
   font-weight: 500;
-}
-
-nav a:hover {
-  text-decoration: underline;
 }
 
