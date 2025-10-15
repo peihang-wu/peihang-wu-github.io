@@ -12,28 +12,38 @@ body {
   max-width: 1300px;
   padding: 2rem;
 }
- .nav-links {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            display: flex;
-            justify-content: flex-end;
-            gap: 15px;
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0);
-            backdrop-filter: blur(0px);
-            z-index: 1000;
-            transition: all 0.3s ease;
-        }
- .nav-links a {
-            color: black;
-            text-decoration: none;
-            text-align: right;
-            font-weight: bold;
-            font-size: 1.25rem;
-            transition: opacity 0.3s;
-        }
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+
+nav {
+  text-align: right;
+}
+
+
+nav a {
+  color: #004080;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+.site-title {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
 header {
   margin-bottom: 2rem;
 }
