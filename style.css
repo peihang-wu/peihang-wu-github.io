@@ -28,6 +28,13 @@ body {
             text-shadow: 2px 2px #000000;
             transition: all 0.3s ease;
         }
+ .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.25rem;
+            transition: opacity 0.3s;
+        }
 header {
   margin-bottom: 2rem;
 }
