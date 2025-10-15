@@ -16,7 +16,6 @@ body {
 .header-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-bottom: 1.5rem;
 }
 
@@ -40,6 +39,7 @@ nav a:hover {
 
 .site-title {
   margin: 0;
+  text-align: center;
   font-size: 1.8rem;
   font-weight: bold;
 }
