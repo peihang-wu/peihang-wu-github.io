@@ -67,6 +67,21 @@ section {
   text-underline-offset: 4px;
 }
 
+.top-header {
+  background-color: #004080;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  font-family: "Georgia", serif;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.top-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
 h3 {
   border-bottom: 1px solid #ccc;
   padding-bottom: 0.3rem;
