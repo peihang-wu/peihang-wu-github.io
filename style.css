@@ -107,4 +107,17 @@ footer {
   font-size: 0.9rem;
   color: #888;
 }
+details {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
 
+summary {
+  cursor: pointer;
+  color: #004c99;       /* link-like blue */
+  font-weight: 500;
+}
+
+summary:hover {
+  text-decoration: underline;
+}
