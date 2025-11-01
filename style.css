@@ -138,7 +138,9 @@ summary:hover {
 .intro-text {
   max-width: 600px;   
 }
-
+.photo-intro {
+  text-align: center;  
+}
 .photo-comment {
   font-style: italic;
   color: #555;
