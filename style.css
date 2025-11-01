@@ -114,7 +114,7 @@ details {
 
 summary {
   cursor: pointer;
-  color: #004c99;       /* link-like blue */
+  color: #004c99;       
   font-weight: 500;
 }
 
@@ -122,13 +122,12 @@ summary:hover {
   text-decoration: underline;
 }
 .photo-section {
-  text-align: center;
+  text-align: left;
   margin: 2rem 0;
 }
 
 .profile-photo {
-  width: 200px;           /* adjust as needed */
-  border-radius: 50%;     /* makes it circular */
+  width: 200px;          
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
