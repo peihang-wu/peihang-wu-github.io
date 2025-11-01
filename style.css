@@ -121,10 +121,11 @@ summary:hover {
 
 .profile-photo { 
   width: auto;   
-  height: auto;
+  height: 600px;
   border-radius: 0;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  flex-shrink: 0;     
+  flex-shrink: 0;  
+  object-fit: contain;
 }
 
 .intro-text {
