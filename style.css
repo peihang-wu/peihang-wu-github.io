@@ -128,8 +128,9 @@ summary:hover {
   margin: 2rem 0;
 }
 
-.profile-photo {
-  width: 180px;   
+.profile-photo { 
+  width: 200px;   
+  height: auto;
   border-radius: 0;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   flex-shrink: 0;     
